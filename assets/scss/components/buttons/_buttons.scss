@@ -1,0 +1,35 @@
+//Можете менять размеры, если не будет подходить
+
+@mixin button($padding-y, $padding-x) {
+    background-color: #E67136;
+    border-radius: 0.7em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1em;
+    padding: $padding-y $padding-x;
+    cursor: pointer;
+
+    &:hover {background-color: rgb(247, 151, 26);}
+
+}
+
+.btn-large{
+    @include button (0.7em, 6em);
+}
+
+.btn-medium{
+    @include button (0.7em, 4em);
+}
+
+.btn-mobile-large{
+    @include button (0.25em, 3.5em);
+    border-radius: 0.4em;
+}
+
+.btn-mobile-medium{
+    @include button (1em, 3.5em);
+}
+
+//Чтобы использовать кнопку, нужно всего лишь дать название класса тегу <a> идентичное вышеуказанным, например:
+// <a href="#" class="header__button btn-large">Join now</a>
