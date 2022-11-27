@@ -10,4 +10,16 @@
   min-height: 100vh;
 }
 
-/*# sourceMappingURL=index.css.map */
+.header {
+  display: grid;
+  text-align: center;
+  justify-content: initial;
+  height: 120vh;
+  grid-template-rows: 0.5fr 6fr;
+}
+
+.header__text {
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=index.css..map */
