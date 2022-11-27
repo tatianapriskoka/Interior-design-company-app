@@ -9,25 +9,28 @@
     font-size: 1em;
     padding: $padding-y $padding-x;
     cursor: pointer;
+    border: none;
 
-    &:hover {background-color: rgb(247, 151, 26);}
+    &:hover {
+        background-color: rgb(247, 151, 26);
+    }
 
 }
 
-.btn-large{
+.btn-large {
     @include button (0.7em, 6em);
 }
 
-.btn-medium{
+.btn-medium {
     @include button (0.7em, 4em);
 }
 
-.btn-mobile-large{
+.btn-mobile-large {
     @include button (0.25em, 3.5em);
     border-radius: 0.4em;
 }
 
-.btn-mobile-medium{
+.btn-mobile-medium {
     @include button (1em, 3.5em);
 }
 

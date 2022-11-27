@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
 .btn-large {
   background-color: #E67136;
   border-radius: 0.7em;
@@ -9,7 +10,9 @@
   font-size: 1em;
   padding: 0.7em 6em;
   cursor: pointer;
+  border: none;
 }
+
 .btn-large:hover {
   background-color: rgb(247, 151, 26);
 }
@@ -23,7 +26,9 @@
   font-size: 1em;
   padding: 0.7em 4em;
   cursor: pointer;
+  border: none;
 }
+
 .btn-medium:hover {
   background-color: rgb(247, 151, 26);
 }
@@ -37,8 +42,10 @@
   font-size: 1em;
   padding: 0.25em 3.5em;
   cursor: pointer;
+  border: none;
   border-radius: 0.4em;
 }
+
 .btn-mobile-large:hover {
   background-color: rgb(247, 151, 26);
 }
@@ -52,7 +59,9 @@
   font-size: 1em;
   padding: 1em 3.5em;
   cursor: pointer;
+  border: none;
 }
+
 .btn-mobile-medium:hover {
   background-color: rgb(247, 151, 26);
 }
@@ -70,13 +79,35 @@
 .header {
   display: grid;
   text-align: center;
-  justify-content: initial;
   height: 120vh;
   grid-template-rows: 0.5fr 6fr;
 }
 
 .header__text {
   background-repeat: no-repeat;
+  text-align: center;
+  padding: 100px;
 }
 
-/*# sourceMappingURL=index.css..map */
+.header__image {
+  margin: 1em;
+}
+
+p {
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  color: #FFFFFF;
+  line-height: 40px;
+}
+
+.colortext {
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  color: #E67136;
+}
+
+/*# sourceMappingURL=index.css.map */
