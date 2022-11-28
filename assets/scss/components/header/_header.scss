@@ -1,8 +1,8 @@
 .header {
     display: grid;
     text-align: center;
-    height: 120vh;
-    grid-template-rows: 0.5fr 6fr;
+    max-height: 120vh;
+    grid-template-rows: 0.5fr 5.5fr;
 }
 
 .header__text {
