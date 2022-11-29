@@ -132,22 +132,19 @@ color: #FFFFFF;
     @media screen and (min-width:320px) and (max-width:480px) {
      
         .content{
-            height: 2451px;
+            min-height: 2451px;
         }
 
         .content-item-one{
             display: grid;
-            grid-template-areas: "content__text__title-one" "content__image-one" "content__text__subtitle-one" "content__text__desc-one" "item-one-button" ;
-            grid-template-rows: 10% 40% 1fr 1fr 1fr;
+            grid-template-areas: "content__text__title-one" "content__text__subtitle-one" "content__text__desc-one" "item-one-button" "item-image-one" ;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-columns: 100vw;
             text-align: center;
         }
-        .content__text__title-one{
-            grid-area: content__text__title-one;
-            background-color: #FFFFFF;
-        }
-        .content__image-one{
-        grid-area: content__image-one;
-        }
+.content__text__title-one{
+    grid-area: content__text__title-one;
+}
 .content__text__subtitle-one{
     grid-area: content__text__subtitle-one;
 }
@@ -157,14 +154,51 @@ color: #FFFFFF;
 .item-one-button{
     grid-area: item-one-button;
 }
+.item-image-one{
+    grid-area: item-image-one;
+}
 
-        .item-image-one{
-            width: 90%;
-            height: 240px;
-            object-fit: cover;
+        .item-image-one, .item-image-two, .item-image-three{
+            width: 17.75rem;
+            height: 13.125rem;
+            object-fit: none;
             border-radius: 295px;
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+.content-item-two{
+    display: grid;
+    grid-template-areas: "content__image-two" "content__text-two";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 100vw;
+    text-align: center;
+}
+.content__image-two{
+    grid-area: content__image-two;
+}
+
+.content__text-two{
+    grid-area: content__text-two;
+}
+
+.content-item-three{
+    display: grid;
+    grid-template-areas: "content__text-three" "content__image-three";
+    grid-template-rows: 1fr 60%;
+    grid-template-columns: 100vw;
+    text-align: center;
+}
+
+.content__text-three{
+grid-area: content__text-three;}
+
+.content__image-three{
+    grid-area: content__image-three;
+}
+
+
+
+
 
 .content__text__title{
     font-family: 'Crimson Pro', serif;
@@ -184,7 +218,7 @@ color: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 1.125rem;
-    line-height: 35px;
+    line-height: 30px;
     color: #000000;
     }
 
