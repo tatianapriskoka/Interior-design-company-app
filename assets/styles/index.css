@@ -267,6 +267,7 @@ p {
   }
   .content__text__title-one {
     grid-area: content__text__title-one;
+    background-color: #FFFFFF;
   }
   .content__image-one {
     grid-area: content__image-one;
