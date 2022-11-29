@@ -16,6 +16,11 @@
   background-color: #FFFFFF;
   color: #000000;
 }
+.btn-large:active {
+  background-color: #d7510f;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 
 .btn-medium {
   background-color: #E67136;
@@ -31,6 +36,11 @@
 .btn-medium:hover {
   background-color: #FFFFFF;
   color: #000000;
+}
+.btn-medium:active {
+  background-color: #d7510f;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .btn-mobile-large {
@@ -49,6 +59,11 @@
   background-color: #FFFFFF;
   color: #000000;
 }
+.btn-mobile-large:active {
+  background-color: #d7510f;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 
 .btn-mobile-medium {
   background-color: #E67136;
@@ -64,6 +79,11 @@
 .btn-mobile-medium:hover {
   background-color: #FFFFFF;
   color: #000000;
+}
+.btn-mobile-medium:active {
+  background-color: #d7510f;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .page {
@@ -327,6 +347,11 @@ p {
   .content__button:hover {
     background-color: #FFFFFF;
     color: #000000;
+  }
+  .content__button:active {
+    background-color: #d7510f;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
   }
 }
 

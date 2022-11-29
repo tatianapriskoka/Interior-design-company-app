@@ -16,8 +16,14 @@
         color: #000000;
     }
 
+    &:active {
+        background-color: #d7510f;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
 }
 
+// эффект нажатия плюс кнопка становится темнее
 .btn-large {
     @include button (0.8em, 4.5em);
 }
