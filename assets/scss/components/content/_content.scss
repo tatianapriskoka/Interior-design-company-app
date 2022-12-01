@@ -1,4 +1,4 @@
-/*Desktop*/
+//Desktop
 //Структура всего контейнера content
 .content{
     display: grid;
@@ -23,6 +23,7 @@
 
 //Структура каждого элемента из трех
 
+//первый элемент
 .content-item-one{
     display: grid;
     grid-template-areas: "content__text__title-one item-image-one" 
@@ -101,6 +102,8 @@ line-height: 25px;
 color: #FFFFFF;
 }
 
+
+//второй элемент
 .content-item-two{
     display: grid;
     grid-template-areas: "content__image-two" "content__text-two";
@@ -122,6 +125,7 @@ color: #FFFFFF;
     line-height: 115%;
 }
 
+//третий элемент
 .content-item-three{
     display: grid;
     grid-template-areas: "content__text-three" "content__image-three";
@@ -166,6 +170,7 @@ color: #FFFFFF;
             min-height: 2451px;
         }
 
+        //первый элемент
 .content-item-one{
     display: flex;
     flex-direction: column;
@@ -205,6 +210,7 @@ height: max-content;
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+//второй элемент
 .content-item-two{
     display: grid;
     grid-template-areas: "content__image-two" "content__text-two";
@@ -225,8 +231,7 @@ height: max-content;
 }
 
 
-
-
+//треьтй элемент
 .content-item-three{
     display: flex;
     flex-direction: column;
@@ -241,7 +246,6 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25)
 .content__text__subtitle-three{
     padding-bottom: 5%;
 }
-
 
 
 .content__text__title, .content__text__subtitle-three{
@@ -293,6 +297,7 @@ color: #FFFFFF;
 
 } 
 
+//добавлено только для того, чтобы текст помещался при уменьшении
 
 @media screen and (min-width: 481px) and (max-width: 1139px){
     .content__text__title-two{
