@@ -6,17 +6,20 @@
 }
 
 .header__text {
+    background-image: url(/images/rectangle-1.png);
     background-repeat: no-repeat;
     text-align: center;
     padding: 100px;
+    object-fit: cover;
+    background-size: cover;
 }
 
 .header__image {
     margin: 1em;
 }
 
-p {
-    font-family: 'Crimson Pro';
+.header__text-one {
+    font-family: "Crimson Pro";
     font-style: normal;
     font-weight: 400;
     font-size: 64px;
@@ -24,10 +27,67 @@ p {
     line-height: 40px;
 }
 
-.colortext {
-    font-family: 'Crimson Pro';
+.header__text-color {
+    font-family: "Crimson Pro";
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
     color: #E67136;
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        display: grid;
+        text-align: center;
+        grid-template-rows: 1fr 4fr;
+        max-height: 80vh;
+    }
+
+    .header__image {
+        max-width: 100%;
+        margin: 1em;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .header__text {
+        display: grid;
+        grid-template-rows: 1fr 1fr 0.1fr;
+        justify-content: center;
+        background-image: url(/images/rectangle-17.png);
+        object-fit: cover;
+    }
+
+    .header__text-one {
+        font-family: "Crimson Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .header__text-color {
+        font-family: "Crimson Pro";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 35px;
+        color: #E67136;
+    }
+
+    .btn-medium {
+        display: inline;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 15px;
+        text-align: center;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
 }
