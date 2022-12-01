@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
 .btn-large {
   background-color: #E67136;
   border-radius: 0.7em;
@@ -11,10 +12,12 @@
   cursor: pointer;
   border: none;
 }
+
 .btn-large:hover {
   background-color: #FFFFFF;
   color: #000000;
 }
+
 .btn-large:active {
   background-color: #d7510f;
   box-shadow: 0 5px #666;
@@ -32,10 +35,12 @@
   cursor: pointer;
   border: none;
 }
+
 .btn-medium:hover {
   background-color: #FFFFFF;
   color: #000000;
 }
+
 .btn-medium:active {
   background-color: #d7510f;
   box-shadow: 0 5px #666;
@@ -54,10 +59,12 @@
   border: none;
   border-radius: 0.4em;
 }
+
 .btn-mobile-large:hover {
   background-color: #FFFFFF;
   color: #000000;
 }
+
 .btn-mobile-large:active {
   background-color: #d7510f;
   box-shadow: 0 5px #666;
@@ -75,10 +82,12 @@
   cursor: pointer;
   border: none;
 }
+
 .btn-mobile-medium:hover {
   background-color: #FFFFFF;
   color: #000000;
 }
+
 .btn-mobile-medium:active {
   background-color: #d7510f;
   box-shadow: 0 5px #666;
@@ -104,16 +113,19 @@
 }
 
 .header__text {
+  background-image: url(/images/rectangle-1.png);
   background-repeat: no-repeat;
   text-align: center;
   padding: 100px;
+  object-fit: cover;
+  background-size: cover;
 }
 
 .header__image {
   margin: 1em;
 }
 
-p {
+.header__text-one {
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 400;
@@ -122,12 +134,69 @@ p {
   line-height: 40px;
 }
 
-.colortext {
+.header__text-color {
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
   color: #E67136;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    display: grid;
+    text-align: center;
+    grid-template-rows: 1fr 4fr;
+    max-height: 80vh;
+  }
+
+  .header__image {
+    max-width: 100%;
+    margin: 1em;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .header__text {
+    display: grid;
+    grid-template-rows: 1fr 1fr 0.1fr;
+    justify-content: center;
+    background-image: url(/images/rectangle-17.png);
+    object-fit: cover;
+  }
+
+  .header__text-one {
+    font-family: "Crimson Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+  .header__text-color {
+    font-family: "Crimson Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #E67136;
+  }
+
+  .btn-medium {
+    display: inline;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
 }
 
 .main-content {
@@ -306,14 +375,28 @@ p {
   .content {
     min-height: 2451px;
   }
+
   .content-item-one {
+<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     width: 100vw;
+=======
+    display: grid;
+    grid-template-areas: "content__text__title-one" "content__image-one" "content__text__subtitle-one" "content__text__desc-one" "item-one-button";
+    grid-template-rows: 10% 40% 1fr 1fr 1fr;
+    text-align: center;
   }
+
+  .content__text__title-one {
+    grid-area: content__text__title-one;
+>>>>>>> edfd11dd632d2fa721c18d49b1940f0eece00cdd
+  }
+
   .content__image-one {
     order: -1;
   }
+<<<<<<< HEAD
   .content__text__title-one {
     order: -2;
     padding-bottom: 5%;
@@ -321,12 +404,23 @@ p {
     margin: 3% 0 3% 0;
     padding: 5% 5% 5% 5%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+=======
+
+  .content__text__subtitle-one {
+    grid-area: content__text__subtitle-one;
   }
+
+  .content__text__desc-one {
+    grid-area: content__text__desc-one;
+>>>>>>> edfd11dd632d2fa721c18d49b1940f0eece00cdd
+  }
+
   .item-one-button {
     min-width: 40%;
     align-self: center;
     height: max-content;
   }
+<<<<<<< HEAD
   .content__text__desc-one {
     padding: 0 8% 9% 13%;
     margin: 0;
@@ -372,18 +466,34 @@ p {
     padding-bottom: 5%;
   }
   .content__text__title, .content__text__subtitle-three {
+=======
+
+  .item-image-one {
+    width: 90%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 295px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .content__text__title {
+>>>>>>> edfd11dd632d2fa721c18d49b1940f0eece00cdd
     font-family: "Crimson Pro", serif;
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 20px;
     color: #E67136;
   }
+<<<<<<< HEAD
   .content__text__title.content__text__title-two, .content__text__subtitle-three.content__text__title-two {
     line-height: 28px;
   }
   .content__text__title.content__text__title-three, .content__text__subtitle-three.content__text__title-three {
     line-height: 30px;
   }
+=======
+
+>>>>>>> edfd11dd632d2fa721c18d49b1940f0eece00cdd
   .content__text__subtitle-one {
     font-family: "Crimson Pro", serif;
     font-weight: 500;
@@ -391,6 +501,7 @@ p {
     line-height: 20px;
     color: #000000;
   }
+
   .content__text__desc {
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
@@ -408,6 +519,7 @@ p {
     line-height: 25px;
     color: #000000;
   }
+
   .content__button {
     font-family: "Open Sans";
     font-weight: 600;
@@ -424,10 +536,12 @@ p {
     cursor: pointer;
     border: none;
   }
+
   .content__button:hover {
     background-color: #FFFFFF;
     color: #000000;
   }
+
   .content__button:active {
     background-color: #d7510f;
     box-shadow: 0 5px #666;
