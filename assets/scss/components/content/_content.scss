@@ -310,3 +310,8 @@ color: #FFFFFF;
         font-size: 4vw;
     }
 }
+@media screen and (min-width: 481px) and (max-width: 733px){
+.item-one-button, .item-two-button, .item-three-button{
+    font-size: 2.2vw;
+}
+}
