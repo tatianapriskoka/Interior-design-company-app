@@ -108,7 +108,8 @@
   display: grid;
   text-align: center;
   max-height: 120vh;
-  grid-template-rows: 0.5fr 5.5fr;
+  grid-template-rows: 5.5fr;
+  margin-top: 100px;
 }
 
 .header__text {
@@ -121,7 +122,12 @@
 }
 
 .header__image {
-  margin: 1em;
+  height: 100px;
+  width: 100%;
+  padding-left: 33%;
+  position: fixed;
+  background-color: #FFFFFF;
+  z-index: 10;
 }
 
 .header__text-one {
@@ -149,7 +155,7 @@
     max-height: 80vh;
   }
   .header__image {
-    max-width: 100%;
+    right: 0;
     margin: 1em;
   }
   img {
@@ -646,6 +652,9 @@
   .item-title-three, .item-title-four {
     margin-bottom: 10%;
   }
+}
+.section-rewards {
+  background-color: rgb(18, 0, 35);
 }
 
 /*# sourceMappingURL=index.css.map */
