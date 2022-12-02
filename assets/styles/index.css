@@ -96,6 +96,14 @@
   scroll-behavior: smooth;
 }
 
+.arrow_up {
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+  width: 45px;
+  height: 45px;
+}
+
 .header {
   display: grid;
   text-align: center;

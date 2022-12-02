@@ -8,3 +8,11 @@ grid-template-rows: auto 1fr auto;
 min-height: 100vh;
 scroll-behavior: smooth;
 }
+
+.arrow_up{
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    width: 45px;
+    height: 45px;
+}
