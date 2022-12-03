@@ -1,6 +1,11 @@
 .section-rewards {
-    background-color: rgb(18, 0, 35);
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 415px;
 }
+
 .section-rewards__title_special {
     font-family: 'Crimson Pro';
 font-style: normal;
