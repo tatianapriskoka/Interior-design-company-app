@@ -731,5 +731,47 @@
 .section-rewards__button_block {
   padding: 3%;
 }
+.gallery {
+  display: grid;
+  width: 1439px;
+  height: 743px;
+  grid-template-columns: 500px 500px 500px 500px;
+  grid-template-rows: 300px 300px;
+  gap: 10px;
+}
+.section-brands__title {
+    font-family: "Crimson Pro", serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 53px;
+    color: #E67136;
+    text-align: center;
+    
+}
+
+.section-tools__title {
+
+font-family: 'Crimson Pro';
+font-weight: 700;
+font-size: 48px;
+line-height: 53px;
+text-align: center;
+color: #E67136;
+}
+
+.section-tools {
+  min-height: 669px;
+  max-height: max-content;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.section-tools__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: max-content;
+  grid-gap: 0.5%;
+  padding-top: 3.6%;
+}
 
 /*# sourceMappingURL=index.css.map */
