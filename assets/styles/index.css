@@ -657,7 +657,7 @@
   }
 }
 .section-rewards {
-  background-color: white;
+  background-color: #F5F4F4;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -673,6 +673,39 @@
   /* or 62% */
   text-align: center;
   color: #E67136;
+}
+
+.section-rewards__title {
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 60px;
+  /* or 94% */
+  text-align: center;
+  color: #000000;
+}
+
+.section-rewards__subtitle_one {
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 20px;
+  /* or 83% */
+  text-align: center;
+  color: #000000;
+}
+
+.section-rewards__subtitle_two {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  text-align: center;
+  color: #000000;
 }
 
 /*# sourceMappingURL=index.css.map */
