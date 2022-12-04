@@ -1,0 +1,15 @@
+.section-tools {
+    min-height: 669%;
+    max-height: max-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  .section-tools__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: max-content;
+    grid-gap: 0.5%;
+    padding-top: 3.6%;
+  }
