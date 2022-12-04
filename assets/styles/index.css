@@ -799,7 +799,7 @@
   .section-rewards__button {
     font-family: "Open Sans";
     font-weight: 600;
-    font-size: 1.125rem;
+    font-size: 0.5rem;
     line-height: 25px;
     color: #FFFFFF;
     background-color: #E67136;
@@ -827,12 +827,7 @@
     height: max-content;
   }
   .section-rewards__button_block {
-    display: flex;
-    width: 172px;
-    height: 62px;
-    align-items: stretch;
-    text-align: center;
-    padding-top: 10%;
+    padding-top: 12%;
   }
 }
 .section-brands {

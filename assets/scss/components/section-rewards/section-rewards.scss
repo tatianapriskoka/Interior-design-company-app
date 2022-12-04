@@ -170,7 +170,7 @@ color: #FFFFFF;
             .section-rewards__button {
                 font-family: 'Open Sans';
                 font-weight: 600;
-                font-size: 1.125rem;
+                font-size: 0.5rem;
                 line-height: 25px;
                 color: #FFFFFF;
                 @include button (1em, 2.5em);
@@ -181,13 +181,8 @@ color: #FFFFFF;
                 align-self: center;
                 height: max-content;
             }
-            
+
             .section-rewards__button_block {
-                display: flex;
-                width: 172px;
-                height: 62px;
-                align-items: stretch;
-                text-align: center;
-                padding-top: 10%;
+                padding-top: 12%;
             }
 }
