@@ -731,78 +731,48 @@
 .section-rewards__button_block {
   padding: 3%;
 }
-.gallery {
-  display: grid;
-  width: 1439px;
-  height: 743px;
-  grid-template-columns: 500px 500px 500px 500px;
-  grid-template-rows: 300px 300px;
-  gap: 10px;
-}
-.section-brands__title {
-    font-family: "Crimson Pro", serif;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 53px;
-    color: #E67136;
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .section-rewards {
+    background-color: #F5F4F4;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    
+    width: 284px;
+    height: 363px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 }
-
-.section-tools__title {
-
-font-family: 'Crimson Pro';
-font-weight: 700;
-font-size: 48px;
-line-height: 53px;
-text-align: center;
-color: #E67136;
-}
-
-.section-tools {
-  min-height: 669px;
-  max-height: max-content;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-.section-tools__container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: max-content;
-  grid-gap: 0.5%;
-  padding-top: 3.6%;
-}
-
 .footer {
- display: grid;
- place-content: center;
- max-width: 100%;
- max-height: auto;
- background-color: #506961;
- }
+  display: grid;
+  place-content: center;
+  max-width: 100%;
+  max-height: auto;
+  background-color: #506961;
+}
 
- .text-warning {
- color: #E9824F;
- }
+.text-warning {
+  color: #E9824F;
+}
 
- .footer_text_container {
- display: grid;
- height: auto;
- width: 90vw;
- grid-row: 1fr 1fr 1fr 1fr;
- grid-column: 1fr 1fr;
- background-color: #F5F4F4;
- border-radius: 50px;
- margin-top: 3%;
- margin-bottom: 3%;
- }
+.footer_text_container {
+  display: grid;
+  height: auto;
+  width: 90vw;
+  grid-row: 1fr 1fr 1fr 1fr;
+  grid-column: 1fr 1fr;
+  background-color: #F5F4F4;
+  border-radius: 50px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
 
 .footer_text_logo {
   grid-row: 2/3;
   grid-column: 1/2;
   text-align: center;
-}      
+}
 
 .footer_text_contact {
   grid-row: 1/3;
@@ -819,13 +789,13 @@ color: #E67136;
 .footer_text_cm {
   grid-row: 3/4;
   grid-column: 2/3;
- align-self: center;
+  align-self: center;
 }
 
 .footer_text_copyright {
   grid-row: 4/5;
   grid-column: 1/3;
   text-align: center;
-        }
+}
 
 /*# sourceMappingURL=index.css.map */

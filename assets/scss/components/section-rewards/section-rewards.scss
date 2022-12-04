@@ -84,3 +84,19 @@ color: #FFFFFF;
 .section-rewards__button_block {
     padding: 3%;
 }
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+
+    .section-rewards {
+        background-color: #F5F4F4;;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 284px;
+        height: 363px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+}
