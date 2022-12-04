@@ -734,14 +734,14 @@
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .section-rewards {
+    margin-left: 7%;
     background-color: #F5F4F4;
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    height: 415px;
     width: 284px;
-    height: 363px;
-    margin-left: 40px;
-    margin-right: 40px;
   }
   .section-rewards__title_special {
     font-family: "Crimson Pro";
@@ -754,20 +754,23 @@
     color: #E67136;
   }
   .section-rewards__title {
-    margin-left: 12%;
-    margin-right: 12%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
     font-family: "Crimson Pro";
     font-style: normal;
     font-weight: 400;
     font-size: 1.375rem;
-    line-height: 60px;
+    line-height: 1px;
     /* or 94% */
     text-align: center;
     color: #000000;
   }
   .section-rewards__subtitle_one {
     margin: 0;
-    padding-top: 2.5%;
+    padding-top: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
     font-family: "Crimson Pro";
     font-style: normal;
     font-weight: 500;
@@ -781,7 +784,9 @@
   }
   .section-rewards__subtitle_two {
     margin: 0;
-    padding: 1%;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 300;
@@ -817,12 +822,17 @@
     transform: translateY(4px);
   }
   .explore-rewards-button {
-    height: min-content;
-    width: 18%;
+    min-width: 40%;
     align-self: center;
+    height: max-content;
   }
   .section-rewards__button_block {
-    padding: 3%;
+    display: flex;
+    width: 172px;
+    height: 62px;
+    align-items: stretch;
+    text-align: center;
+    padding-top: 10%;
   }
 }
 .footer {
