@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 415px;
+    height: max-content;
 }
 
 .section-rewards__title_special {
@@ -82,21 +82,32 @@ color: #FFFFFF;
 }
 
 .section-rewards__button_block {
-    padding: 3%;
+    padding: 3% 3% 8% 3%;
 }
-
+@media screen and (min-width:481px) and (max-width: 800px){
+    .section-rewards__button_block{
+        margin-bottom: 9%;
+        margin-top: 2%;
+    }
+    .section-rewards__title{
+        font-size: 2rem;
+    }
+    .section-rewards__title_special{
+        font-size: 2.8rem;
+    }
+}
 
 @media screen and (min-width:320px) and (max-width:480px) {
 
     .section-rewards {
-        margin-left: 7%;
+        margin-left: 5%;
         background-color: #F5F4F4;;
         display: flex;
         flex-direction: column;
         text-align: center;
         align-items: center;
-        height: 415px;
-        width: 284px;
+        height: max-content;
+        width: 90%;
     }
 
     .section-rewards__title_special {
@@ -184,5 +195,6 @@ color: #FFFFFF;
 
             .section-rewards__button_block {
                 padding-top: 12%;
+                margin-bottom: 5%;
             }
 }
