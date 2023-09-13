@@ -13,4 +13,9 @@
 
 ## Result:
 
-    https://interior-design-company-app.vercel.app/
+https://interior-design-company-app.vercel.app/
+
+## Thanks to all Contributors
+
+[![Contributors](https://contrib.rocks/image?repo=tatianapriskoka/Interior-design-company-app)](https://github.com/tatianapriskoka/Interior-design-company-app/graphs/contributors)
+
